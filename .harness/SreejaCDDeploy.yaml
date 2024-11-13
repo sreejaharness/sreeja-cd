@@ -5,7 +5,7 @@ pipeline:
   orgIdentifier: training_13thNov
   tags: {}
   stages:
-    - stage:
+    - state:
         name: Deploy
         identifier: Deploy
         description: "this is a git sync test"
