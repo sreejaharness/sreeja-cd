@@ -7,8 +7,8 @@ pipeline:
   stages:
     - stage:
         name: Deploy
-      
-        description: "this is a git sync test"
+        identifier: Deploy
+        description: this is a git sync test
         type: Deployment
         spec:
           deploymentType: Kubernetes
